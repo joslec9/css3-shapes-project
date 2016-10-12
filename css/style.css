@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 970px;
+    height: 970px;
+}
+
+p.square {
+    width: 140px;
+    height: 140px;
+    background: blue;
+    margin-top: 20px;
+}
+
+p.circle {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    margin-top: 20px;
+}
+
+p.triangle_up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+    margin-top: 20px;
+}
+
+p.pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid blue;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid blue;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  margin-top: 20px;
+}
+
+h2.shapes_title {
+    margin-top: 50px;
+}
